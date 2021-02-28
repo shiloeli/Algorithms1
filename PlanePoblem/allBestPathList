@@ -1,0 +1,71 @@
+//package PlanePoblem;
+//
+//import java.util.ArrayList;
+//
+//public class allBestPathList {
+//
+//
+//    public void allPathsRecurs(int teta){
+//        if(nPat)
+//
+//    }
+//
+//    public static void allPath(Node[][] mat) {
+//
+
+
+
+
+
+//    }
+
+
+
+
+
+
+
+
+//    public static void allPath(String ans, int i, int j) {
+//
+//        Node[][] mat = {{new Node(3, 3), new Node(9, 1), new Node(4, 8), new Node(-1, 8)},
+//                {new Node(7, 1), new Node(5, 0), new Node(8, 2), new Node(-1, 5)},
+//                {new Node(0, 7), new Node(4, 2), new Node(3, 1), new Node(-1, 8)},
+//                {new Node(5, -1), new Node(8, -1), new Node(1, -1), new Node(-1, -1)}};
+//
+//
+//        if (i > 0 && j > 0) {
+//            int a = mat[i - 1][j].price + mat[i - 1][j].y;
+//            int b = mat[i][j - 1].price + mat[i][j - 1].x;
+////            System.out.println(1);
+//
+//            if (a < b) {
+//                allPath("1" + ans, i - 1, j);
+//            }
+//            if (a > b) {
+//                allPath("0" + ans, i, j - 1);
+//            }
+//            if (a == b) {
+//                allPath("1" + ans, i - 1, j);
+//                allPath("0" + ans, j - 1, j);
+//            }
+//        }
+//        if (j > 0 && i == 0) {
+////            System.out.println(2);
+//            allPath("0" + ans, i, j - 1);
+//        }
+//        if (i > 0 && j == 0) {
+////            System.out.println(3);
+//            allPath("1" + ans, i - 1, j);
+//        }
+//        if (i == 0 && j == 0) {
+//            System.out.println(ans);
+//        }
+//    }
+
+
+//    public static void main(String[] args) {
+//        allPath("", 3, 3);
+//    }
+//
+//}
